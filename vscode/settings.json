@@ -1,0 +1,71 @@
+{
+  "workbench.colorTheme": "Plastic",
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.validate.enable": false,
+  "workbench.activityBar.visible": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "editor.renderWhitespace": "all",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.minimap.enabled": false,
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "window.restoreWindows": "all",
+  "window.zoomLevel": 0,
+  "terminal.integrated.rendererType": "dom",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.statusBar.visible": false,
+  "go.autocompleteUnimportedPackages": true,
+  "go.formatTool": "goimports",
+  "[go]": {
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    },
+    "editor.codeActionsOnSaveTimeout": 3000
+  },
+  "gopls": {
+    "usePlaceholders": false,
+    "completionDocumentation": true, // for documentation in completion items
+    "completeUnimported": true, // autocomplete unimported packages
+    "watchFileChanges": true, // watch file changes outside of the editor
+    "deepCompletion": true // enable deep completion
+  },
+  "go.addTags": {
+    "tags": "json",
+    "options": "",
+    "promptForTags": false,
+    "transform": "camelcase"
+  },
+  "go.languageServerExperimentalFeatures": {
+    "format": true,
+    "autoComplete": true,
+    "rename": true,
+    "goToDefinition": true,
+    "hover": true,
+    "signatureHelp": true,
+    "goToTypeDefinition": true,
+    "goToImplementation": true,
+    "documentSymbols": true,
+    "workspaceSymbols": true,
+    "findReferences": true,
+    "diagnostics": true,
+    "documentLink": false
+  },
+  "go.useLanguageServer": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
