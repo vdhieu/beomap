@@ -1,7 +1,6 @@
 {
   "title": "BEOMAP CAPLOCKS",
   "author": "Hieu Vu (vdhieu.it@gmail.com)",
-  "__location__": "~/.config/karabiner/assets/complex_modifications",
   "rules": [
     {
       "description": "CapsLock to Hyper/Escape",
@@ -636,12 +635,14 @@
                 "right_command",
                 "right_control",
                 "right_option"
-              ]
+              ],
+              "optional": ["any"]
             }
           },
           "to": [
             {
-              "key_code": "left_shift"
+              "key_code": "left_shift",
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -655,12 +656,14 @@
                 "right_command",
                 "right_control",
                 "right_option"
-              ]
+              ],
+              "optional": ["any"]
             }
           },
           "to": [
             {
-              "key_code": "left_shift"
+              "key_code": "left_shift",
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -674,12 +677,14 @@
                 "right_command",
                 "right_control",
                 "right_option"
-              ]
+              ],
+              "optional": ["any"]
             }
           },
           "to": [
             {
-              "key_code": "left_shift"
+              "key_code": "left_shift",
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
@@ -693,12 +698,14 @@
                 "right_command",
                 "right_control",
                 "right_option"
-              ]
+              ],
+              "optional": ["any"]
             }
           },
           "to": [
             {
-              "key_code": "left_shift"
+              "key_code": "left_shift",
+              "modifiers": ["left_command"]
             }
           ],
           "type": "basic"
